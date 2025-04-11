@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+@media screen and (min-width: 300px) and (max-width: 791px){
+    
+
+aside{/* FORMULARIO */
+    position:absolute;
+    top: 124%;
+    left: 48%;
+    transform: translate(-50%, -75%);
+}
+
+img#grande{
+    display: none;
+}
+
+img#pequena{
+    display: block;
+
+    top: 124%;
+    left: 48%;
+    transform: translate(23%, -5%);
+}
+
+}
+

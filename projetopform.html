@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/projetoS.css">
+    <link rel="stylesheet" href="estilos/modretrato.css">
+    <link rel="stylesheet" href="estilos/tablet.css">
+</head>
+<body>
+    <header>
+        <h1 >Qual a Nota para a Seleção Brasileira </h1>
+    </header>
+    <main>
+        <img id="grande" src="imagens/image.png" alt="TATU DA COPA">
+        <img id="pequena" src="imagens/image.p.png" alt=" TATU DA COPA">
+    </main>
+    <aside class="forme">
+        <h1>Algunas perguntas sobre a Amarelinha</h1>        
+        <form action="cadastro.php" >
+            <p>
+                <label for="ip1">Qual sua nota para o dempenho da Seleção esse ano?</label><br>
+                <input type="number" name="pergunta1" id="ip1">
+            </p>
+           
+
+            <p>
+                <label for="imsg">Mensagem:</label>
+                <textarea name="msg"  id="imsg" cols="30" rows="10" placeholder="Digite algo sobre nosa Seleção:"></textarea>
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </aside>
+    
+</body>
+</html>
