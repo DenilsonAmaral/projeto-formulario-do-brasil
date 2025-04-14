@@ -1,7 +1,10 @@
 @charset "utf-8";
 
 @media screen and (min-width: 300px) and (max-width: 791px){
-    
+
+body{
+    background-image: url(../imagens/jogos-copa-do-mundo_widelg.jpg);
+}
 
 aside{/* FORMULARIO */
     position:absolute;
